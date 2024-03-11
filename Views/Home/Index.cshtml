@@ -1,0 +1,13 @@
+﻿@model IEnumerable<aspHeidi.Models.Entities.Turler>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach (var turler in Model)
+{
+    <div class="bg-light p-3 border mb-3">
+           <h3>@turler.Ad</h3>
+           
+    </div>
+}
